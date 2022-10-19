@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>API_autores</RootNamespace>
+    <RootNamespace>api_autores</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

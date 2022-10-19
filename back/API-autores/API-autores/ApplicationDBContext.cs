@@ -1,7 +1,7 @@
-﻿using API_autores.Entitys;
+﻿using api_autores.Entitys;
 using Microsoft.EntityFrameworkCore;
 
-namespace API_autores
+namespace api_autores
 {
     public class ApplicationDBContext : DbContext
     {
@@ -9,7 +9,8 @@ namespace API_autores
         {
         }
 
-        //Configurando las tablas de las bases de datos
+        //configurando las tablas de la base datos
         public DbSet<Autor> Autor { get; set; }
+        public DbSet<Libro> Libro { get; set; }
     }
 }

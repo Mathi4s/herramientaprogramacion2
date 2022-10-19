@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "API-autores/1.0.0": {
+      "api-autores/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.17",
           "Microsoft.EntityFrameworkCore": "5.0.17",
@@ -321,10 +321,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "API-autores.dll": {}
+          "api-autores.dll": {}
         },
         "compile": {
-          "API-autores.dll": {}
+          "api-autores.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -2979,7 +2979,7 @@
     }
   },
   "libraries": {
-    "API-autores/1.0.0": {
+    "api-autores/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

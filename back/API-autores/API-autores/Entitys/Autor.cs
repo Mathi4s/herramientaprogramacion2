@@ -1,18 +1,23 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
-namespace API_autores.Entitys
+namespace api_autores.Entitys
 {
     public class Autor
     {
-        //Definimos clave primaria
+        //definimos la clave primaria
         [Key]
-        public int codigo { get; set;}
-        //Definimos valores no nulos
+        public int codigoautor { get; set; }
+        //definimos valores no nulos
         [Required]
-        //Definimos el tamaño del campo
-        [StringLength(maximumLength:100, ErrorMessage ="Se tiene que ingresar un nombre")]
-        public string nombre { get; set;}
+        //definimos el tamaño del campo
+        [StringLength(
+            maximumLength: 100,
+            ErrorMessage = "Se tiene que ingresar un nombre"
+            )]
+        public string nombre { get; set; }
         [Required]
-        public bool estado { get; set;}
+        public bool estado { get; set; }
+        public List<Libro> libro { get; set; }
     }
 }

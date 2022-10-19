@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace API_autores
+namespace api_autores
 {
     public class Startup
     {
@@ -39,7 +39,7 @@ namespace API_autores
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API_autores", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api_autores", Version = "v1" });
             });
         }
 
@@ -50,7 +50,7 @@ namespace API_autores
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API_autores v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "api_autores v1"));
             }
 
             app.UseHttpsRedirection();
