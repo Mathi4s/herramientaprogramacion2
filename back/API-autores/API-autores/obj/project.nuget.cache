@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bqvc3qyfA1lqNcYVrGMuSXvk5U4PWlWEEsUiju4dhVBdVuuF+d/1YTWq9xrIrBAp0ZQEZTj7onwKLtNo6YrDVQ==",
+  "dgSpecHash": "Ky/9B47G73kqyKCIMsXBhfLC6G2xPHHAiijsFITn5W3NaoAI6qouj5jZKPklGVj+p5TTIvBFk67l2K0fttvsOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathi\\Desktop\\IDAD CICLO 4\\HERRAMIENTAS DE PROGRAMACION II\\api-autores\\api-autores\\api-autores.csproj",
+  "projectFilePath": "C:\\Users\\mathi\\Desktop\\IDAD CICLO 4\\HERRAMIENTAS DE PROGRAMACION II\\herramientaprogramacion2\\back\\API-autores\\api-autores\\api-autores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.17\\microsoft.aspnetcore.authentication.jwtbearer.5.0.17.nupkg.sha512",
